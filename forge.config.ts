@@ -30,6 +30,19 @@ const config: ForgeConfig = {
       },
     }),
   ],
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        platforms: ['darwin', 'linux' , 'win32'],
+        repository: {
+          owner: 'MortallicaXxX',
+          name: 'electron-forge-test'
+        },
+        prerelease: true
+      }
+    }
+  ]
 };
 
 export default config;
