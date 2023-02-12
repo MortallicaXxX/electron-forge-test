@@ -34,7 +34,7 @@ const config: ForgeConfig = {
     {
       name: '@electron-forge/publisher-github',
       config: {
-        platforms: ['darwin', 'linux' , 'win32'],
+        platforms: ['darwin', 'linux'],
         repository: {
           owner: 'MortallicaXxX',
           name: 'electron-forge-test'
